@@ -1,0 +1,30 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#mybutton{
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 10px;
+    transition:  0.25s;
+    background-color: rgb(249, 142, 12);
+    cursor: pointer;
+    
+
+}
+#mylabel{
+    font-size: 3em;
+}
+#mybutton:hover{
+    box-shadow: 2px 2px 15px;
+    background-color: rgb(255, 162, 49);
+    transition: 0.3s;
+   
+}
+#mybutton:active{
+     transition:  0.25s;
+    background-color: rgb(255, 242, 124);
+    transition: 0.3s;
+    
+    
+}
